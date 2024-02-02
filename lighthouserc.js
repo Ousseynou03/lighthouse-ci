@@ -17,9 +17,5 @@ module.exports = {
     },
   }
 
-  // https://web.dev/performance-scoring/
-
-  // 2x2nL0EWez7:46842367:8QwFQRAJFbxFC
-  // LHCI_GITHUB_APP_TOKEN
-
-  // https://developer.chrome.com/docs/lighthouse/performance/performance-scoring?hl=fr
+  // Use build token b8b30f34-917b-4c0f-bca7-47315172fbbc to add data.
+  // Use admin token SqzDrNQHlozcX0I3NEYFlebKfzmtFxMzMQelyadU to manage data. KEEP THIS SECRET!
