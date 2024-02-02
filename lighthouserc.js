@@ -1,19 +1,24 @@
 module.exports = {
     ci: {
-      "collect": {
-      "url": ["https://developer.chrome.com/docs/lighthouse/performance/performance-scoring?hl=fr"],
-      "numberOfRuns": 5
-      },
+      collect: {
 
-      "assert": {
-        "preset": "lighthouse:no-pwa"
+      url: ['https://developer.chrome.com/docs/lighthouse/performance/performance-scoring?hl=fr'],
+      numberOfRuns: 5
       },
-      "upload": {
-        "target": "lhci",
-        "serverBaseUrl": "http://localhost:9001/app/projects"
+      assert: {
+        preset: 'lighthouse:no-pwa'
       },
-      "headful": false
-    }
-  };
+      upload: {
+        target: 'lhci',
+        'serverBaseUrl': 'http://localhost:9001'
+      },
+     // headful: false
+    },
+  }
 
-  // http://localhost:9001/app/projects
+  // https://web.dev/performance-scoring/
+
+  // 2x2nL0EWez7:46842367:8QwFQRAJFbxFC
+  // LHCI_GITHUB_APP_TOKEN
+
+  // https://developer.chrome.com/docs/lighthouse/performance/performance-scoring?hl=fr
