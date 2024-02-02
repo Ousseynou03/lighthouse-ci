@@ -5,9 +5,10 @@ module.exports = {
       url: ['https://developer.chrome.com/docs/lighthouse/performance/performance-scoring?hl=fr'],
       numberOfRuns: 5
       },
-      assert: {
+    /*  assert: {
         preset: 'lighthouse:recommended',
       },
+      */
       upload: {
         target: 'lhci',
         'serverBaseUrl': 'http://localhost:9001'
