@@ -6,7 +6,7 @@ module.exports = {
       numberOfRuns: 5
       },
       assert: {
-        preset: 'lighthouse:no-pwa'
+        preset: 'lighthouse:recommended',
       },
       upload: {
         target: 'lhci',
