@@ -21,3 +21,6 @@ module.exports = {
   };
 
   // https://web.dev/performance-scoring/
+
+  // 2x2nL0EWez7:46842367:8QwFQRAJFbxFC
+  // LHCI_GITHUB_APP_TOKEN
